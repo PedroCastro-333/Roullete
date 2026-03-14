@@ -20,12 +20,14 @@ const PREMIOS = {
     "Sushi": "SUH",
     "Cafeteria": "CAF",
     "Chocolate": "CHL",
-    "Praia noturna": "PRN",
-    "Rio de Janeiro": "RJ",
+    // "Praia noturna": "PRN",
+    // "Rio de Janeiro": "RJ",
     "Piquenique": "PIQ",
     "Doce a sua escolha": "DOCE",
-    "Tabua de frios":"TAB"
-
+    "Tabua de frios": "TAB",
+    "Garrafa D'água": "AGU",
+    "Beijo no rosto": "BJO",
+    "Dar mordida onde quiser": "VMP",
 
 };
 

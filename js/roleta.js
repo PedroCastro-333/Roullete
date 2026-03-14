@@ -54,7 +54,7 @@ function criarImagemVitoria(src, classe, largura = 170) {
 function mostrarAnimacaoDeVitoria() {
     limparImagensVitoria();
 
-    criarImagemVitoria("../assets/snoopy-dancing2.gif", "win-left", 160);
+    criarImagemVitoria("../assets/vessel.gif", "win-left", 160);
     criarImagemVitoria("../assets/snoopy-dancing1.gif", "win-right", 160);
     criarImagemVitoria("../assets/boboca1.jpg", "win-top-left", 110);
     criarImagemVitoria("../assets/boboca2.jpg", "win-top-right", 110);
@@ -125,7 +125,7 @@ function spin() {
         resultado.textContent = ganhou ? "🎉 Você ganhou!" : "❌ Você não ganhou!";
 
         if (ganhou) {
-            mostrarImagemZoomCentral("../assets/pedrin.jpg");
+            mostrarImagemZoomCentral("../assets/dogf.webp");
 
             setTimeout(() => {
                 mostrarAnimacaoDeVitoria();
