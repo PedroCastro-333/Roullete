@@ -69,9 +69,9 @@ function mostrarImagemZoomCentral(src, largura = 260) {
 
     document.body.appendChild(img);
 
-    setTimeout(() => {
-        img.remove();
-    }, 2500);
+    // setTimeout(() => {
+    //     img.remove();
+    // }, 2500);
 }
 
 function criarBotaoTicket(nome) {

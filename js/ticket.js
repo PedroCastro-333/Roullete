@@ -12,22 +12,23 @@ function formatarNome(nome) {
 }
 
 const PREMIOS = {
-    "Massagem": "MSG",
-    // "Jantar": "JNT",
-    // "Cinema": "CIN"
-    "Funilaria Lanches": "FNL",
-    "Viagem": "VGM",
-    "Sushi": "SUH",
-    "Cafeteria": "CAF",
-    "Chocolate": "CHL",
+    // "Massagem": "MSG",
+    // // "Jantar": "JNT",
+    // // "Cinema": "CIN"
+    // "Funilaria Lanches": "FNL",
+    // "Viagem": "VGM",
+    // "Sushi": "SUH",
+    // "Cafeteria": "CAF",
+    // "Chocolate": "CHL",
     // "Praia noturna": "PRN",
-    // "Rio de Janeiro": "RJ",
-    "Piquenique": "PIQ",
-    "Doce a sua escolha": "DOCE",
-    "Tabua de frios": "TAB",
-    "Garrafa D'água": "AGU",
-    "Beijo no rosto": "BJO",
-    "Dar mordida onde quiser": "VMP",
+    // // "Rio de Janeiro": "RJ",
+    // "Piquenique": "PIQ",
+    // "Doce a sua escolha": "DOCE",
+    // "Tabua de frios": "TAB",
+    // "Garrafa D'água": "AGU",
+    // "Beijo no rosto": "BJO",
+    // "Dar mordida onde quiser": "VMP",
+    "Miniatura de carro":"MIN"
 
 };
 
