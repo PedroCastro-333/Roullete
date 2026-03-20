@@ -69,12 +69,39 @@ const nome = formatarNome(getNomeDaURL())
 
 const ticket = gerarTicket()
 
+let clickCount = 0;
+
 const overlay = document.querySelector(".spoiler-overlay");
+const img = document.querySelector(".spoiler-container img");
 
 overlay.addEventListener("click", () => {
-    overlay.style.display = "none";
-});
+    clickCount++;
 
+    switch (clickCount) {
+        case 1:
+            alert("Tem certeza? Eu deixei essa opção porque fiquei ansioso.");
+            break;
+
+        case 2:
+            alert("Eu sei que você consegue segurar essa vontade de saber.");
+            break;
+
+        case 3:
+            alert("Se você clicar mais uma vez vai estragar a surpresa.");
+            break;
+
+        case 4:
+            alert("Quer saber... Desisti de revelar.");
+
+            // 🔥 troca a imagem
+            img.src = "../assets/giggle-snoopy.gif";
+
+        default:
+            // depois disso, revela normal
+            overlay.style.display = "none";
+            break;
+    }
+});
 const spoiler = document.querySelector(".spoiler-container");
 if (ticket.premio !== "Miniatura de carro") {
 	spoiler.style.display = "none";

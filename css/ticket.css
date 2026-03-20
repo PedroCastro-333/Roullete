@@ -147,9 +147,9 @@ color:white;
     transition: 0.3s;
 }
 
-.spoiler-overlay:hover {
+/* .spoiler-overlay:hover {
     backdrop-filter: blur(5px);
-}
+} */
 
 .spoiler-overlay::after {
     content: "Clique para ter spoiler do prêmio";

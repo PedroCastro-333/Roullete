@@ -10,7 +10,9 @@ function nomeEhVencedor(nome) {
         "caroline",
         "caroline helena",
         "caroline helena correa",
+        "caroline helena corrêa",
         "caroline helena correa gonzaga",
+        "caroline helena corrêa gonzaga",
         "vygrid",
         "vygrida"
     ];
