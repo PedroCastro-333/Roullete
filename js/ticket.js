@@ -91,13 +91,10 @@ overlay.addEventListener("click", () => {
             break;
 
         case 4:
+			img.src = "../assets/giggle-snoopy.gif";
             alert("Quer saber... Desisti de revelar.");
-
-            // 🔥 troca a imagem
-            img.src = "../assets/giggle-snoopy.gif";
-
+			
         default:
-            // depois disso, revela normal
             overlay.style.display = "none";
             break;
     }
