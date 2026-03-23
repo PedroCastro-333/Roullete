@@ -5,4 +5,4 @@ button.addEventListener("click", () => {
     const nome = nameInput.value.trim();
 
     window.location.href = `./pages/roleta.html?name=${encodeURIComponent(nome)}`;
-});
+}); 

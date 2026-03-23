@@ -28,7 +28,7 @@ const PREMIOS = {
     // "Garrafa D'água": "AGU",
     // "Beijo no rosto": "BJO",
     // "Dar mordida onde quiser": "VMP",
-    "Miniatura de carro":"MIN"
+    "Miniatura de carro": "MIN"
 
 };
 
@@ -42,7 +42,7 @@ function escolherPremio() {
 }
 
 
-function gerarNumeroTicket() {
+function gerarNumeroTicket() { 
 
     return Math.floor(100 + Math.random() * 900)
 
@@ -104,7 +104,7 @@ overlay.addEventListener("click", () => {
 });
 const spoiler = document.querySelector(".spoiler-container");
 if (ticket.premio !== "Miniatura de carro") {
-	spoiler.style.display = "none";
+    spoiler.style.display = "none";
 }
 
 document.getElementById("winner-name").textContent = nome

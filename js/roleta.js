@@ -6,7 +6,7 @@ function getNomeDaURL() {
 }
 
 function nomeEhVencedor(nome) {
-    const vencedores = [
+    const vencedores = [ 
         "caroline",
         "caroline helena",
         "caroline helena correa",
