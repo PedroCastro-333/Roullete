@@ -75,29 +75,32 @@ const overlay = document.querySelector(".spoiler-overlay");
 const img = document.querySelector(".spoiler-container img");
 
 overlay.addEventListener("click", () => {
-    clickCount++;
 
-    switch (clickCount) {
-        case 1:
-            alert("Tem certeza? Eu deixei essa opção porque fiquei ansioso.");
-            break;
+    overlay.style.display = 'none';
 
-        case 2:
-            alert("Eu sei que você consegue segurar essa vontade de saber.");
-            break;
+    // clickCount++;
 
-        case 3:
-            alert("Se você clicar mais uma vez vai estragar a surpresa.");
-            break;
+    // switch (clickCount) {
+    //     case 1:
+    //         alert("Tem certeza? Eu deixei essa opção porque fiquei ansioso.");
+    //         break;
 
-        case 4:
-			img.src = "../assets/giggle-snoopy.gif";
-            alert("Quer saber... Desisti de revelar.");
-			
-        default:
-            overlay.style.display = "none";
-            break;
-    }
+    //     case 2:
+    //         alert("Eu sei que você consegue segurar essa vontade de saber.");
+    //         break;
+
+    //     case 3:
+    //         alert("Se você clicar mais uma vez vai estragar a surpresa.");
+    //         break;
+
+    //     case 4:
+    //         img.src = "../assets/giggle-snoopy.gif";
+    //         alert("Quer saber... Desisti de revelar.");
+
+    //     default:
+    //         overlay.style.display = "none";
+    //         break;
+    // }
 });
 const spoiler = document.querySelector(".spoiler-container");
 if (ticket.premio !== "Miniatura de carro") {
