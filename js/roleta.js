@@ -9,10 +9,6 @@ function nomeEhVencedor(nome) {
     const vencedores = [ 
         "caroline",
         "caroline helena",
-        "caroline helena correa",
-        "caroline helena corrêa",
-        "caroline helena correa gonzaga",
-        "caroline helena corrêa gonzaga",
         "vygrid",
         "vygrida"
     ];
